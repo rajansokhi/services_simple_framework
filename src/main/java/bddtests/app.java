@@ -1,6 +1,6 @@
-package skeleton;
+package bddtests;
 
-public class Belly {
+public class app {
     public void eat(int cukes) {
 
     }

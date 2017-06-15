@@ -1,4 +1,4 @@
-package skeleton;
+package bddtests.utils;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
