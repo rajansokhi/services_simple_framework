@@ -7,4 +7,6 @@ Feature: Scenarios to test back end APIS
 
 
   Scenario: Check if it is possible to test soap with rest assured
-    Given do a test
+    Given the SOAP service "http://services.aonaware.com" exists
+    When I POST a test payload containing the word "hand"
+    Then the response contains definitions of the word "hand"
